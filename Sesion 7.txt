@@ -1,0 +1,44 @@
+Listas enlazadas
+
+Son estructuras de datos dinámicas que almacenan elementos mediante nodos conectados entre sí. A diferencia de los arreglos, no necesitan un tamaño fijo y pueden crecer o reducirse fácilmente.
+
+Estructura de una lista enlazada
+
+Cada nodo tiene dos partes principales:
+
+Dato: información almacenada.
+Apuntador: referencia al siguiente nodo.
+
+La lista comienza con un nodo llamado head o cabeza. El último nodo apunta a null, indicando el final de la lista.
+
+Tipos de listas enlazadas
+Lista enlazada simple: cada nodo apunta solo al siguiente.
+Lista doble enlazada: cada nodo apunta al anterior y al siguiente.
+Lista enlazada circular: el último nodo apunta nuevamente al primero.
+Implementación de listas enlazadas simples
+
+En una lista simple, cada nodo contiene un dato y un enlace hacia el siguiente nodo. Las operaciones principales se realizan modificando los apuntadores entre nodos.
+
+Operaciones básicas
+Inserción
+
+Consiste en agregar nuevos nodos a la lista.
+
+Inserción al inicio: el nuevo nodo pasa a ser la nueva cabeza.
+Inserción al final: se recorre la lista hasta el último nodo y se conecta el nuevo nodo.
+Inserción en posición específica: se ajustan los apuntadores en la posición deseada.
+Eliminación
+
+Consiste en remover nodos de la lista.
+
+Eliminar por valor: se busca el nodo y se modifican los apuntadores para excluirlo.
+Eliminar al inicio: la cabeza pasa a ser el segundo nodo.
+Eliminar al final: se encuentra el penúltimo nodo y su apuntador pasa a null.
+Ventajas de las listas enlazadas
+Permiten insertar y eliminar elementos fácilmente.
+No requieren tamaño fijo.
+Usan memoria de manera flexible.
+Desventajas
+El acceso a elementos es más lento que en arreglos.
+Requieren más memoria por los apuntadores.
+Las búsquedas pueden ser menos eficientes.
